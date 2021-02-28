@@ -1,15 +1,15 @@
 header {
     background-color: #1b2330;;
-    padding: 20px;
+    //padding: 20px;
 
     .container {
         display: grid;
         grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
         grid-gap: 20px;
         align-items: center;
-
+    
         @include breakpoint(large){
-            grid-gap: 56px;
+            grid-gap: 56px;            
         } 
     }
     
@@ -27,9 +27,9 @@ header {
         @include breakpoint(large){
             font-size: 1rem;
         }
+
         &:hover {
             text-decoration: underline;
         }
-
     }
 }

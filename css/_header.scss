@@ -10,8 +10,7 @@ header {
 
         @include breakpoint(large){
             grid-gap: 56px;
-        }
-       
+        } 
     }
     
     img {
@@ -20,11 +19,6 @@ header {
         @include breakpoint(large){
             width: 185px;
         }
-    }
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     a {

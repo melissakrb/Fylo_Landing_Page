@@ -15,6 +15,15 @@ button, .button {
     }
 
     &:hover {
-        background : linear-gradient(to right, #329ecc, #329ecc);
+        background: linear-gradient(to right, #329ecc, #329ecc);
+    }
+
+    &--large {
+        @extend .button;
+        padding: 20px;
+
+        @include breakpoint(medium){
+            max-width: 285px;
+        }
     }
 }

@@ -1,25 +1,38 @@
 header {
-    background-color: hsl(218, 28%, 13%);
+    background-color: #1b2330;;
     padding: 20px;
 
     .container {
-        //display: grid;
-        //grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-        //grid-gap: 20px;
-        
-        max-width: 1440px;
-        margin: auto;
+        display: grid;
+        grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+        grid-gap: 20px;
         align-items: center;
-        color : white;
+
+        @include breakpoint(large){
+            grid-gap: 56px;
+        }
        
     }
     
     img {
         width: 83px;
+
+        @include breakpoint(large){
+            width: 185px;
+        }
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     a {
         font-size: 0.875rem;
+
+        @include breakpoint(large){
+            font-size: 1rem;
+        }
         &:hover {
             text-decoration: underline;
         }

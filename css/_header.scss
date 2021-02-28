@@ -1,0 +1,25 @@
+header {
+    background-color: hsl(218, 28%, 13%);
+
+    .container {
+        //display: grid;
+        //grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+        //grid-gap: 20px;
+        
+        max-width: 1440px;
+        margin: auto;
+        align-items: center;
+        color : white;
+       
+    }
+    
+    img {
+        width: 83px;
+
+    }
+
+    a {
+        font-size: 0.875rem;
+
+    }
+}

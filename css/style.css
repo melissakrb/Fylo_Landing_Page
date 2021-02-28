@@ -49,6 +49,7 @@ section {
 
 header {
   background-color: #181f2a;
+  padding: 20px;
 }
 
 header .container {
@@ -66,5 +67,56 @@ header img {
 
 header a {
   font-size: 0.875rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.features {
+  padding: 20px;
+}
+
+.features .feature-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 6vw 10vw;
+  margin: 0 auto;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.feature-image img {
+  height: 100%;
+  width: auto;
+}
+
+.feature-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.feature-description {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

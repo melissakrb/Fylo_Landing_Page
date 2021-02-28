@@ -1,5 +1,6 @@
 header {
     background-color: hsl(218, 28%, 13%);
+    padding: 20px;
 
     .container {
         //display: grid;
@@ -15,11 +16,13 @@ header {
     
     img {
         width: 83px;
-
     }
 
     a {
         font-size: 0.875rem;
+        &:hover {
+            text-decoration: underline;
+        }
 
     }
 }
